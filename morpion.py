@@ -29,7 +29,7 @@ def actionjoueur():
 
 def play():
 	global cara
-	case = raw_input("Quel case jouer ?\n")
+	case = raw_input("Quelle case jouer ?\n")
 	caseM = case.upper()
 	if caseM == "A1" and damierl1[0] == "A 1" :
 		actionjoueur()
